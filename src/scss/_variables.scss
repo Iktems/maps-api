@@ -1,0 +1,33 @@
+:root {
+    --app-container: #fff;
+    --main-color: #1f1c2e;
+    --secondary-color: #4A4A4A;
+    --link-color: #1f1c2e;
+    --link-color-hover: #8d967e;
+    --link-color-active: #fff;
+    --link-color-active-bg: #1f1c2e;
+    --projects-section: #f8f8f8;
+    --message-box-hover: #cfdfb4;
+    --message-box-border: #e9ebf0;
+
+  }
+  
+  .dark:root {
+    --app-container: #111827;
+    --main-color: #fff;
+    --secondary-color: rgba(255, 255, 255, .8);
+    --projects-section: #1f2937;
+    --link-color: rgba(255, 255, 255, .8);
+    --link-color-hover: #4892b0;
+    --link-color-active-bg: rgba(195, 207, 244, 0.2);
+    --message-box-hover: #08668c;
+    --message-box-border: rgba(255, 255, 255, .1);
+  }
+  
+
+  $container : --app-container;
+  $titre : --main-color;
+  $paragraphe : --secondary-color;
+  $section : --projects-section;
+  $msgHover: --message-box-hover;
+  $msgBorder: --message-box-border;

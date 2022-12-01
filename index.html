@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="src/img/favicon.png">
+        <link rel="stylesheet" href="src/css/style.min.css">
+        <!-- <script type="module" src="src/js/script.js"></script> -->
+        <script type="text/javascript"
+            src="http://maps.google.com/maps/api/js?sensor=false&language=zh-TW"></script>
+        <title>TEMSAMANI - API GOOGLE MAPS</title>
+    </head>
+    <body>
+        <div class="container">
+            <div></div>
+
+            <div class="app-header">
+                <div class="projects-section-header">
+                    <h1>TEMSAMANI</h1>
+                    <h5>Activez la géolocalisation pour afficher le contenu</h5>
+                </div>
+                <div class="app-header-right">
+                    <button class="mode-switch" title="Switch Theme">
+                        <svg
+                            class="moon"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            width="24"
+                            height="24"
+                            viewbox="0 0 24 24">
+                            <defs></defs>
+                            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021
+                                12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="app-content">
+                <div class="projects-section" id="map"></div>
+                <div class="messages-section">
+
+                    <div class="projects-section-header">
+                        <p>Bruxelles - Les musées</p>
+                    </div>
+                    <div class="messages" id="contenu">
+
+                        <div class="message-box" id="contenu">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            async="async"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKcTQ-zk45bUB2U-0mIhYELU1CKbrSFTI&callback=initMap">
+        </script>
+        <script src="src/js/jquery-3.6.1.min.js"></script>
+        <script src="src/js/script.js"></script>
+    </body>
+</html>
